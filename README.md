@@ -72,6 +72,11 @@ pip install django
 Since SQLite is the default database in Django, no extra setup is needed. Run the following commands to initialize it:
 
 ```sh
+# create database migrations files
+python manage.py makemigrations
+```
+
+```sh
 # Apply database migrations
 python manage.py migrate
 ```
